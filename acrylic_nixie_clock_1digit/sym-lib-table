@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name acrylic_nixie_clock-rescue)(type Legacy)(uri ${KIPRJMOD}/acrylic_nixie_clock-rescue.lib)(options "")(descr ""))
+)

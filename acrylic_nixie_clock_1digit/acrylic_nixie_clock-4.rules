@@ -1,0 +1,91 @@
+
+(rules PCB acrylic_nixie_clock-4
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (eu.mihosoft.freerouting.autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 35)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 4.1)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.3)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clear 200.2)
+    (clear 125.0 (type smd_to_turn_gap))
+    (clear 50.0 (type smd_smd))
+  )
+  (padstack "Via[0-1]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
+  )
+  (via 
+    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-1]_800:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_800:400_um-kicad_default"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    GND "Net-(BT1-Pad1)" SW1 "VR_F1" "VR_F2" +5V K0 K1
+    K2 K3 K4 K5 K6 K9 K8 K7
+    "Net-(LS1-Pad2)" "Net-(Q1-Pad1)" "VR_CLICK" SPK "Net-(U2-Pad11)" "Net-(U2-Pad10)" "Net-(U2-Pad12)" SW2
+    +3V3 /Sheet5F60D2EA/sheet5F60EC1D/K9 "/Sheet5F60D2EA/sheet5F60EC1D/LED_RGB/B" "/Sheet5F60D2EA/sheet5F60EC1D/LED_RGB/R" "/Sheet5F60D2EA/sheet5F60EC1D/LED_RGB/G" /Sheet5F60D2EA/sheet5F60EC1D/K8 /Sheet5F60D2EA/sheet5F60EC1D/K7 /Sheet5F60D2EA/sheet5F60EC1D/K6
+    /Sheet5F60D2EA/sheet5F60EC1D/K5 /Sheet5F60D2EA/sheet5F60EC1D/K4 /Sheet5F60D2EA/sheet5F60EC1D/K3 /Sheet5F60D2EA/sheet5F60EC1D/K2 /Sheet5F60D2EA/sheet5F60EC1D/K1 /Sheet5F60D2EA/sheet5F60EC1D/K0 "/Sheet5F60D2EA/sheet5F76DABD/LED_RGB/B" "/Sheet5F60D2EA/sheet5F76DABD/LED_RGB/R"
+    "/Sheet5F60D2EA/sheet5F76DABD/LED_RGB/G" "/Sheet5F60D2EA/sheet5F771B13/LED_RGB/G" "/Sheet5F60D2EA/sheet5F771B13/LED_RGB/R" "/Sheet5F60D2EA/sheet5F771B13/LED_RGB/B" "/Sheet5F60D2EA/sheet5F775B37/LED_RGB/B" "/Sheet5F60D2EA/sheet5F775B37/LED_RGB/R" "/Sheet5F60D2EA/sheet5F775B37/LED_RGB/G" "Net-(J1-Pad6)"
+    "Net-(J1-Pad2)" "Net-(J1-Pad3)" "Net-(J1-Pad4)" "Net-(J2-Pad2)" RXD TXD DTR "Net-(Q2-Pad1)"
+    B "Net-(Q2-Pad3)" "Net-(Q3-Pad1)" "Net-(Q3-Pad2)" G "Net-(Q4-Pad3)" "Net-(Q5-Pad2)" "Net-(Q5-Pad1)"
+    "Net-(Q6-Pad3)" R "Net-(Q7-Pad2)" "Net-(Q7-Pad1)" "Net-(Q10-Pad1)" "Net-(Q8-Pad3)" "Net-(Q9-Pad2)" "Net-(Q9-Pad1)"
+    "Net-(Q10-Pad3)" "Net-(Q11-Pad1)" "Net-(Q11-Pad2)" "Net-(Q12-Pad3)" "Net-(Q13-Pad2)" "Net-(Q13-Pad1)" "Net-(Q14-Pad3)" "Net-(Q14-Pad1)"
+    "Net-(Q15-Pad1)" "Net-(Q15-Pad2)" "Net-(Q16-Pad3)" "Net-(Q17-Pad2)" "Net-(Q17-Pad1)" "Net-(Q18-Pad3)" "Net-(Q19-Pad2)" "Net-(Q19-Pad1)"
+    "Net-(Q20-Pad1)" "Net-(Q20-Pad3)" "Net-(Q21-Pad2)" "Net-(Q21-Pad1)" "Net-(Q22-Pad3)" "Net-(Q23-Pad1)" "Net-(Q23-Pad2)" "Net-(Q24-Pad3)"
+    "Net-(Q25-Pad1)" "Net-(Q25-Pad2)" EN1 EN2 EN3 EN4 "Net-(U2-Pad4)" "Net-(U2-Pad5)"
+    "Net-(U2-Pad6)" "Net-(U2-Pad7)" "Net-(U2-Pad13)" "Net-(U3-Pad2)" /Sheet5F79123F/SENSORVP /Sheet5F79123F/SENSORCAPP /Sheet5F79123F/SENSORCAPN /Sheet5F79123F/SENSORVN
+    /Sheet5F79123F/IO34 /Sheet5F79123F/IO35 /Sheet5F79123F/IO32 /Sheet5F79123F/IO33 /Sheet5F79123F/IO27 "Net-(U3-Pad26)" "Net-(U3-Pad44)" "Net-(U3-Pad45)"
+    "Net-(U3-Pad47)" "Net-(U3-Pad48)"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)

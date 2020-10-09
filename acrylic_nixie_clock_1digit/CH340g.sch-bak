@@ -1,0 +1,264 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 9 10
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Interface_USB:CH340G U?
+U 1 1 5FAB082E
+P 5100 3400
+AR Path="/5FAB082E" Ref="U?"  Part="1" 
+AR Path="/5FAA58A8/5FAB082E" Ref="U?"  Part="1" 
+AR Path="/5F5F34C3/5FAB082E" Ref="U4"  Part="1" 
+F 0 "U4" H 4800 3950 50  0000 C CNN
+F 1 "CH340G" H 5300 3950 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 5150 2850 50  0001 L CNN
+F 3 "http://www.datasheet5.com/pdf-local-2195953" H 4750 4200 50  0001 C CNN
+F 4 "C14267" H 5100 3400 50  0001 C CNN "LCSC"
+	1    5100 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 3000 5500 3000
+Wire Wire Line
+	5600 3100 5500 3100
+Wire Wire Line
+	5600 3700 5500 3700
+Wire Wire Line
+	5500 3300 5600 3300
+NoConn ~ 5600 3300
+Wire Wire Line
+	5500 3400 5600 3400
+NoConn ~ 5600 3400
+Wire Wire Line
+	5500 3500 5600 3500
+NoConn ~ 5600 3500
+Wire Wire Line
+	5500 3600 5600 3600
+NoConn ~ 5600 3600
+Wire Wire Line
+	5500 3800 5600 3800
+NoConn ~ 5600 3800
+$Comp
+L Device:R R?
+U 1 1 5FAB0844
+P 5750 3000
+AR Path="/5FAB0844" Ref="R?"  Part="1" 
+AR Path="/5FAA58A8/5FAB0844" Ref="R?"  Part="1" 
+AR Path="/5F5F34C3/5FAB0844" Ref="R5"  Part="1" 
+F 0 "R5" V 5700 2800 50  0000 C CNN
+F 1 "1k" V 5750 3000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5680 3000 50  0001 C CNN
+F 3 "~" H 5750 3000 50  0001 C CNN
+F 4 "C21190" V 5750 3000 50  0001 C CNN "LCSC"
+	1    5750 3000
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	5900 3000 6050 3000
+Wire Wire Line
+	6050 3100 5900 3100
+Wire Wire Line
+	4450 3850 4500 3850
+NoConn ~ 4500 3850
+Wire Wire Line
+	5100 4100 5100 4000
+NoConn ~ 4000 3850
+Wire Wire Line
+	4000 3850 4050 3850
+$Comp
+L Device:Crystal_GND24 Y?
+U 1 1 5FAB085E
+P 4250 3850
+AR Path="/5FAB085E" Ref="Y?"  Part="1" 
+AR Path="/5FAA58A8/5FAB085E" Ref="Y?"  Part="1" 
+AR Path="/5F5F34C3/5FAB085E" Ref="Y2"  Part="1" 
+F 0 "Y2" V 4100 3650 50  0000 L CNN
+F 1 "12MHZ" V 4100 3900 50  0000 L CNN
+F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 4250 3850 50  0001 C CNN
+F 3 "~" H 4250 3850 50  0001 C CNN
+F 4 "C9002" V 4250 3850 50  0001 C CNN "LCSC"
+	1    4250 3850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4250 3700 4250 3600
+Wire Wire Line
+	4250 3600 4700 3600
+Wire Wire Line
+	4700 3800 4650 3800
+Wire Wire Line
+	4650 3800 4650 4100
+Wire Wire Line
+	4650 4100 4250 4100
+Wire Wire Line
+	4250 4100 4250 4000
+Wire Wire Line
+	4550 3300 4700 3300
+Wire Wire Line
+	4700 3400 4550 3400
+Wire Wire Line
+	4700 3100 4600 3100
+NoConn ~ 4600 3100
+$Comp
+L Device:C_Small C?
+U 1 1 5FAB0870
+P 4650 2700
+AR Path="/5FAB0870" Ref="C?"  Part="1" 
+AR Path="/5FAA58A8/5FAB0870" Ref="C?"  Part="1" 
+AR Path="/5F5F34C3/5FAB0870" Ref="C10"  Part="1" 
+F 0 "C10" V 4600 2550 50  0000 C CNN
+F 1 "1n" V 4600 2850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4650 2700 50  0001 C CNN
+F 3 "~" H 4650 2700 50  0001 C CNN
+F 4 "C1588" V 4650 2700 50  0001 C CNN "LCSC"
+	1    4650 2700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4750 2700 5000 2700
+Wire Wire Line
+	5000 2700 5000 2800
+Wire Wire Line
+	4550 2700 4250 2700
+Wire Wire Line
+	4250 2700 4250 2800
+$Comp
+L Device:C_Small C?
+U 1 1 5FAB0880
+P 4650 2550
+AR Path="/5FAB0880" Ref="C?"  Part="1" 
+AR Path="/5FAA58A8/5FAB0880" Ref="C?"  Part="1" 
+AR Path="/5F5F34C3/5FAB0880" Ref="C9"  Part="1" 
+F 0 "C9" V 4600 2400 50  0000 C CNN
+F 1 "100n" V 4600 2700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4650 2550 50  0001 C CNN
+F 3 "~" H 4650 2550 50  0001 C CNN
+F 4 "C14663" V 4650 2550 50  0001 C CNN "LCSC"
+	1    4650 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5FAB0886
+P 4650 2400
+AR Path="/5FAB0886" Ref="C?"  Part="1" 
+AR Path="/5FAA58A8/5FAB0886" Ref="C?"  Part="1" 
+AR Path="/5F5F34C3/5FAB0886" Ref="C8"  Part="1" 
+F 0 "C8" V 4600 2250 50  0000 C CNN
+F 1 "10u" V 4600 2550 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4650 2400 50  0001 C CNN
+F 3 "~" H 4650 2400 50  0001 C CNN
+F 4 "C19702" V 4650 2400 50  0001 C CNN "LCSC"
+	1    4650 2400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4750 2550 5100 2550
+Wire Wire Line
+	5100 2550 5100 2800
+Wire Wire Line
+	4750 2400 5100 2400
+Wire Wire Line
+	5100 2400 5100 2550
+Connection ~ 5100 2550
+Wire Wire Line
+	4550 2400 4250 2400
+Wire Wire Line
+	4250 2400 4250 2550
+Connection ~ 4250 2700
+Wire Wire Line
+	4250 2550 4550 2550
+Connection ~ 4250 2550
+Wire Wire Line
+	4250 2550 4250 2700
+Wire Wire Line
+	5100 2300 5100 2400
+Connection ~ 5100 2400
+Text HLabel 4550 3300 0    50   Input ~ 0
+D+
+Text HLabel 4550 3400 0    50   Input ~ 0
+D-
+Text HLabel 6050 3100 2    50   Input ~ 0
+RX
+Text HLabel 6050 3000 2    50   Input ~ 0
+TX
+Text HLabel 5600 3700 2    50   Input ~ 0
+DTR
+Text HLabel 5100 2300 1    50   Input ~ 0
+VCC
+Text HLabel 5100 4100 3    50   Input ~ 0
+GND
+Text HLabel 4250 2800 3    50   Input ~ 0
+GND
+Wire Wire Line
+	3950 3600 4250 3600
+Connection ~ 4250 3600
+Wire Wire Line
+	4250 4100 3950 4100
+Connection ~ 4250 4100
+Text HLabel 3600 4350 3    50   Input ~ 0
+GND
+Wire Wire Line
+	3750 3600 3600 3600
+Wire Wire Line
+	3600 3600 3600 4100
+Wire Wire Line
+	3750 4100 3600 4100
+Connection ~ 3600 4100
+Wire Wire Line
+	3600 4100 3600 4350
+$Comp
+L Device:C_Small C?
+U 1 1 5F734A85
+P 3850 3600
+AR Path="/5F734A85" Ref="C?"  Part="1" 
+AR Path="/5F5F34C3/5F734A85" Ref="C6"  Part="1" 
+F 0 "C6" V 3800 3450 50  0000 C CNN
+F 1 "20p" V 3800 3750 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3850 3600 50  0001 C CNN
+F 3 "~" H 3850 3600 50  0001 C CNN
+F 4 "C1648" V 3850 3600 50  0001 C CNN "LCSC"
+	1    3850 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F73898C
+P 3850 4100
+AR Path="/5F73898C" Ref="C?"  Part="1" 
+AR Path="/5F5F34C3/5F73898C" Ref="C7"  Part="1" 
+F 0 "C7" V 3800 3950 50  0000 C CNN
+F 1 "20p" V 3800 4250 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3850 4100 50  0001 C CNN
+F 3 "~" H 3850 4100 50  0001 C CNN
+F 4 "C1648" V 3850 4100 50  0001 C CNN "LCSC"
+	1    3850 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F658157
+P 5750 3100
+AR Path="/5F658157" Ref="R?"  Part="1" 
+AR Path="/5FAA58A8/5F658157" Ref="R?"  Part="1" 
+AR Path="/5F5F34C3/5F658157" Ref="R6"  Part="1" 
+F 0 "R6" V 5700 2900 50  0000 C CNN
+F 1 "1k" V 5750 3100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5680 3100 50  0001 C CNN
+F 3 "~" H 5750 3100 50  0001 C CNN
+F 4 "C21190" V 5750 3100 50  0001 C CNN "LCSC"
+	1    5750 3100
+	0    -1   1    0   
+$EndComp
+$EndSCHEMATC
