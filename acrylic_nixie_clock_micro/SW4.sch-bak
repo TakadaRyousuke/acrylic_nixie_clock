@@ -1,0 +1,345 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 10 10
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	6350 3200 6650 3200
+Connection ~ 6350 3200
+Wire Wire Line
+	6350 3200 6350 3250
+Wire Wire Line
+	5200 3200 5500 3200
+Connection ~ 5200 3200
+Wire Wire Line
+	5200 3250 5200 3200
+Wire Wire Line
+	6350 3650 6650 3650
+Wire Wire Line
+	6350 3550 6350 3650
+Wire Wire Line
+	5200 3650 5500 3650
+Wire Wire Line
+	5200 3550 5200 3650
+Wire Wire Line
+	4050 3650 4350 3650
+Wire Wire Line
+	4050 3550 4050 3650
+Wire Wire Line
+	4050 3200 4350 3200
+Connection ~ 4050 3200
+Wire Wire Line
+	4050 3200 4050 3250
+Wire Wire Line
+	4000 3200 4050 3200
+Wire Wire Line
+	5150 3200 5200 3200
+Wire Wire Line
+	6300 3200 6350 3200
+$Comp
+L Device:C C?
+U 1 1 5F8036E8
+P 6350 3400
+AR Path="/5F8036E8" Ref="C?"  Part="1" 
+AR Path="/5F7F715F/5F8036E8" Ref="C14"  Part="1" 
+F 0 "C14" H 6465 3446 50  0000 L CNN
+F 1 "0.1u" H 6465 3355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6388 3250 50  0001 C CNN
+F 3 "~" H 6350 3400 50  0001 C CNN
+F 4 "C14858" H 6350 3400 50  0001 C CNN "LCSC"
+	1    6350 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F8036EF
+P 5200 3400
+AR Path="/5F8036EF" Ref="C?"  Part="1" 
+AR Path="/5F7F715F/5F8036EF" Ref="C13"  Part="1" 
+F 0 "C13" H 5315 3446 50  0000 L CNN
+F 1 "0.1u" H 5315 3355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5238 3250 50  0001 C CNN
+F 3 "~" H 5200 3400 50  0001 C CNN
+F 4 "C14858" H 5200 3400 50  0001 C CNN "LCSC"
+	1    5200 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F8036F6
+P 4050 3400
+AR Path="/5F8036F6" Ref="C?"  Part="1" 
+AR Path="/5F7F715F/5F8036F6" Ref="C12"  Part="1" 
+F 0 "C12" H 4165 3446 50  0000 L CNN
+F 1 "0.1u" H 4165 3355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4088 3250 50  0001 C CNN
+F 3 "~" H 4050 3400 50  0001 C CNN
+F 4 "C14858" H 4050 3400 50  0001 C CNN "LCSC"
+	1    4050 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F8036FD
+P 6850 3200
+AR Path="/5E92CCE6/5F8036FD" Ref="R?"  Part="1" 
+AR Path="/5F8036FD" Ref="R?"  Part="1" 
+AR Path="/5EA17FAE/5F8036FD" Ref="R?"  Part="1" 
+AR Path="/5F5AC0E3/5F8036FD" Ref="R?"  Part="1" 
+AR Path="/5F7F715F/5F8036FD" Ref="R10"  Part="1" 
+F 0 "R10" V 6750 3200 50  0000 C CNN
+F 1 "10k" V 6850 3200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6780 3200 50  0001 C CNN
+F 3 "~" H 6850 3200 50  0001 C CNN
+F 4 "C25804" V 6850 3200 50  0001 C CNN "LCSC"
+	1    6850 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F803704
+P 5700 3200
+AR Path="/5E92CCE6/5F803704" Ref="R?"  Part="1" 
+AR Path="/5F803704" Ref="R?"  Part="1" 
+AR Path="/5EA17FAE/5F803704" Ref="R?"  Part="1" 
+AR Path="/5F5AC0E3/5F803704" Ref="R?"  Part="1" 
+AR Path="/5F7F715F/5F803704" Ref="R9"  Part="1" 
+F 0 "R9" V 5600 3200 50  0000 C CNN
+F 1 "10k" V 5700 3200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5630 3200 50  0001 C CNN
+F 3 "~" H 5700 3200 50  0001 C CNN
+F 4 "C25804" V 5700 3200 50  0001 C CNN "LCSC"
+	1    5700 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F80370B
+P 4550 3200
+AR Path="/5E92CCE6/5F80370B" Ref="R?"  Part="1" 
+AR Path="/5F80370B" Ref="R?"  Part="1" 
+AR Path="/5EA17FAE/5F80370B" Ref="R?"  Part="1" 
+AR Path="/5F5AC0E3/5F80370B" Ref="R?"  Part="1" 
+AR Path="/5F7F715F/5F80370B" Ref="R8"  Part="1" 
+F 0 "R8" V 4450 3200 50  0000 C CNN
+F 1 "10k" V 4550 3200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4480 3200 50  0001 C CNN
+F 3 "~" H 4550 3200 50  0001 C CNN
+F 4 "C25804" V 4550 3200 50  0001 C CNN "LCSC"
+	1    4550 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F803712
+P 2900 3400
+AR Path="/5F803712" Ref="C?"  Part="1" 
+AR Path="/5F7F715F/5F803712" Ref="C11"  Part="1" 
+F 0 "C11" H 3015 3446 50  0000 L CNN
+F 1 "0.1u" H 3015 3355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2938 3250 50  0001 C CNN
+F 3 "~" H 2900 3400 50  0001 C CNN
+F 4 "C14858" H 2900 3400 50  0001 C CNN "LCSC"
+	1    2900 3400
+	1    0    0    -1  
+$EndComp
+Connection ~ 6650 3200
+Connection ~ 5500 3200
+Connection ~ 4350 3200
+Connection ~ 3200 3650
+Wire Wire Line
+	2900 3650 3200 3650
+Wire Wire Line
+	2900 3550 2900 3650
+Wire Wire Line
+	2900 3200 3200 3200
+Connection ~ 2900 3200
+Wire Wire Line
+	2900 3200 2900 3250
+Wire Wire Line
+	2850 3200 2900 3200
+Wire Wire Line
+	7050 3200 7000 3200
+Wire Wire Line
+	6650 3200 6700 3200
+Wire Wire Line
+	6650 3200 6650 3250
+Wire Wire Line
+	5900 3200 5850 3200
+Wire Wire Line
+	5500 3200 5550 3200
+Wire Wire Line
+	5500 3200 5500 3250
+Wire Wire Line
+	4750 3200 4700 3200
+Wire Wire Line
+	4350 3200 4400 3200
+Wire Wire Line
+	4350 3200 4350 3250
+Wire Wire Line
+	3600 3200 3550 3200
+Wire Wire Line
+	3200 3200 3250 3200
+Connection ~ 3200 3200
+$Comp
+L Device:R R?
+U 1 1 5F803775
+P 3400 3200
+AR Path="/5E92CCE6/5F803775" Ref="R?"  Part="1" 
+AR Path="/5F803775" Ref="R?"  Part="1" 
+AR Path="/5EA17FAE/5F803775" Ref="R?"  Part="1" 
+AR Path="/5F5AC0E3/5F803775" Ref="R?"  Part="1" 
+AR Path="/5F7F715F/5F803775" Ref="R7"  Part="1" 
+F 0 "R7" V 3300 3200 50  0000 C CNN
+F 1 "10k" V 3400 3200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3330 3200 50  0001 C CNN
+F 3 "~" H 3400 3200 50  0001 C CNN
+F 4 "C25804" V 3400 3200 50  0001 C CNN "LCSC"
+	1    3400 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5F80377B
+P 3200 3450
+AR Path="/5EA17FAE/5F80377B" Ref="SW?"  Part="1" 
+AR Path="/5F80377B" Ref="SW?"  Part="1" 
+AR Path="/5F5AC0E3/5F80377B" Ref="SW?"  Part="1" 
+AR Path="/5F7F715F/5F80377B" Ref="SW1"  Part="1" 
+F 0 "SW1" V 3154 3598 50  0000 L CNN
+F 1 "SW_Push" V 3245 3598 50  0000 L CNN
+F 2 "Button_Switch_SMD:SW_SPST_TL3342" H 3200 3650 50  0001 C CNN
+F 3 "~" H 3200 3650 50  0001 C CNN
+F 4 "C318884" V 3200 3450 50  0001 C CNN "LCSC"
+	1    3200 3450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3200 3200 3200 3250
+Text HLabel 2850 3200 0    50   Input ~ 0
+SW1
+Text HLabel 4000 3200 0    50   Input ~ 0
+SW2
+Text HLabel 5150 3200 0    50   Input ~ 0
+SW3
+Text HLabel 6300 3200 0    50   Input ~ 0
+SW4
+Wire Wire Line
+	3600 2700 3600 2900
+Wire Wire Line
+	3600 2900 4750 2900
+Wire Wire Line
+	4750 2900 4750 3200
+Connection ~ 3600 2900
+Wire Wire Line
+	3600 2900 3600 3200
+Wire Wire Line
+	4750 2900 5900 2900
+Wire Wire Line
+	5900 2900 5900 3200
+Connection ~ 4750 2900
+Wire Wire Line
+	5900 2900 7050 2900
+Wire Wire Line
+	7050 2900 7050 3200
+Connection ~ 5900 2900
+Wire Wire Line
+	3200 3800 4350 3800
+Wire Wire Line
+	6650 3650 6650 3800
+Wire Wire Line
+	3200 3650 3200 3800
+Wire Wire Line
+	5500 3650 5500 3800
+Connection ~ 5500 3800
+Wire Wire Line
+	5500 3800 6650 3800
+Wire Wire Line
+	4350 3650 4350 3800
+Connection ~ 4350 3800
+Wire Wire Line
+	4350 3800 5500 3800
+Text HLabel 3150 3950 0    50   Input ~ 0
+GND
+Wire Wire Line
+	3150 3950 3200 3950
+Wire Wire Line
+	3200 3950 3200 3800
+Connection ~ 3200 3800
+Text HLabel 3600 2700 0    50   Input ~ 0
+VCC
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5F6655CA
+P 4350 3450
+AR Path="/5EA17FAE/5F6655CA" Ref="SW?"  Part="1" 
+AR Path="/5F6655CA" Ref="SW?"  Part="1" 
+AR Path="/5F5AC0E3/5F6655CA" Ref="SW?"  Part="1" 
+AR Path="/5F7F715F/5F6655CA" Ref="SW2"  Part="1" 
+F 0 "SW2" V 4304 3598 50  0000 L CNN
+F 1 "SW_Push" V 4395 3598 50  0000 L CNN
+F 2 "Button_Switch_SMD:SW_SPST_TL3342" H 4350 3650 50  0001 C CNN
+F 3 "~" H 4350 3650 50  0001 C CNN
+F 4 "C318884" V 4350 3450 50  0001 C CNN "LCSC"
+	1    4350 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5F6664AF
+P 5500 3450
+AR Path="/5EA17FAE/5F6664AF" Ref="SW?"  Part="1" 
+AR Path="/5F6664AF" Ref="SW?"  Part="1" 
+AR Path="/5F5AC0E3/5F6664AF" Ref="SW?"  Part="1" 
+AR Path="/5F7F715F/5F6664AF" Ref="SW3"  Part="1" 
+F 0 "SW3" V 5454 3598 50  0000 L CNN
+F 1 "SW_Push" V 5545 3598 50  0000 L CNN
+F 2 "Button_Switch_SMD:SW_SPST_TL3342" H 5500 3650 50  0001 C CNN
+F 3 "~" H 5500 3650 50  0001 C CNN
+F 4 "C318884" V 5500 3450 50  0001 C CNN "LCSC"
+	1    5500 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5F667BB6
+P 5500 3450
+AR Path="/5EA17FAE/5F667BB6" Ref="SW?"  Part="1" 
+AR Path="/5F667BB6" Ref="SW?"  Part="1" 
+AR Path="/5F5AC0E3/5F667BB6" Ref="SW?"  Part="1" 
+AR Path="/5F7F715F/5F667BB6" Ref="SW4"  Part="1" 
+F 0 "SW4" V 5454 3598 50  0000 L CNN
+F 1 "SW_Push" V 5545 3598 50  0000 L CNN
+F 2 "Button_Switch_SMD:SW_SPST_TL3342" H 5500 3650 50  0001 C CNN
+F 3 "~" H 5500 3650 50  0001 C CNN
+F 4 "C318884" V 5500 3450 50  0001 C CNN "LCSC"
+	1    5500 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5F668A75
+P 6650 3450
+AR Path="/5EA17FAE/5F668A75" Ref="SW?"  Part="1" 
+AR Path="/5F668A75" Ref="SW?"  Part="1" 
+AR Path="/5F5AC0E3/5F668A75" Ref="SW?"  Part="1" 
+AR Path="/5F7F715F/5F668A75" Ref="SW5"  Part="1" 
+F 0 "SW5" V 6604 3598 50  0000 L CNN
+F 1 "SW_Push" V 6695 3598 50  0000 L CNN
+F 2 "Button_Switch_SMD:SW_SPST_TL3342" H 6650 3650 50  0001 C CNN
+F 3 "~" H 6650 3650 50  0001 C CNN
+F 4 "C318884" V 6650 3450 50  0001 C CNN "LCSC"
+	1    6650 3450
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC
