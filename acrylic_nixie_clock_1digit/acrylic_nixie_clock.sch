@@ -57,7 +57,7 @@ AR Path="/5F5EE27C" Ref="J1"  Part="1"
 AR Path="/5F5AC0E3/5F5EE27C" Ref="J?"  Part="1" 
 F 0 "J1" V 5533 2200 50  0000 C CNN
 F 1 "AVR-ISP-6" V 5624 2200 50  0000 C CNN
-F 2 "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical" V 5750 2200 50  0001 C CNN
+F 2 "acrylic_nixie_clock_1digit:ISP-6" V 5750 2200 50  0001 C CNN
 F 3 " ~" H 4725 1600 50  0001 C CNN
 	1    6000 2150
 	0    -1   1    0   

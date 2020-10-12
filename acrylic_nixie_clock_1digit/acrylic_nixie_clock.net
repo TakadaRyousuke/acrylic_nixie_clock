@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source C:\Users\tkd\Documents\KiCad\acrylic_nixie_clock_1digit\acrylic_nixie_clock.sch)
-    (date "2020/10/09 21:22:39")
+    (source C:\Users\tkd\Documents\GitHub\acrylic_nixie_clock\acrylic_nixie_clock_1digit\acrylic_nixie_clock.sch)
+    (date "2020/10/11 21:36:13")
     (tool "Eeschema (5.1.5)-3")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -28,7 +28,7 @@
   (components
     (comp (ref J1)
       (value AVR-ISP-6)
-      (footprint Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical)
+      (footprint acrylic_nixie_clock_1digit:ISP-6)
       (datasheet " ~")
       (libsource (lib Connector) (part AVR-ISP-6) (description "Atmel 6-pin ISP connector"))
       (sheetpath (names /) (tstamps /))

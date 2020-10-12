@@ -1066,4 +1066,73 @@ F 4 "C1648" V 3000 5100 50  0001 C CNN "LCSC"
 	1    3000 5100
 	0    1    1    0   
 $EndComp
+$Comp
+L Connector:Conn_01x08_Female J3
+U 1 1 5F83466F
+P 8250 3450
+F 0 "J3" H 8278 3426 50  0000 L CNN
+F 1 "Conn_01x08_Female" H 8278 3335 50  0000 L CNN
+F 2 "write_card:writer_card" H 8250 3450 50  0001 C CNN
+F 3 "~" H 8250 3450 50  0001 C CNN
+	1    8250 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F83748C
+P 8650 3850
+AR Path="/5E92CCE6/5F83748C" Ref="#PWR?"  Part="1" 
+AR Path="/5F83748C" Ref="#PWR026"  Part="1" 
+AR Path="/5EA17FAE/5F83748C" Ref="#PWR?"  Part="1" 
+AR Path="/5FA639E8/5F83748C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR026" H 8650 3600 50  0001 C CNN
+F 1 "GND" H 8655 3677 50  0000 C CNN
+F 2 "" H 8650 3850 50  0001 C CNN
+F 3 "" H 8650 3850 50  0001 C CNN
+	1    8650 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 3750 8650 3850
+Text GLabel 8650 3150 2    50   Input ~ 0
+RST
+Wire Wire Line
+	8650 2800 8650 3050
+$Comp
+L power:+5V #PWR025
+U 1 1 5F8628DB
+P 8650 2800
+F 0 "#PWR025" H 8650 2650 50  0001 C CNN
+F 1 "+5V" H 8665 2973 50  0000 C CNN
+F 2 "" H 8650 2800 50  0001 C CNN
+F 3 "" H 8650 2800 50  0001 C CNN
+	1    8650 2800
+	1    0    0    -1  
+$EndComp
+Text GLabel 8650 3450 2    50   Input ~ 0
+SCK
+Text GLabel 8650 3350 2    50   Input ~ 0
+MISO
+Text GLabel 8650 3250 2    50   Input ~ 0
+MOSI
+Text GLabel 8650 3650 2    50   Input ~ 0
+RXD
+Text GLabel 8650 3550 2    50   Input ~ 0
+TXD
+Wire Wire Line
+	8650 3150 8450 3150
+Wire Wire Line
+	8450 3250 8650 3250
+Wire Wire Line
+	8650 3350 8450 3350
+Wire Wire Line
+	8450 3450 8650 3450
+Wire Wire Line
+	8650 3550 8450 3550
+Wire Wire Line
+	8450 3650 8650 3650
+Wire Wire Line
+	8650 3750 8450 3750
+Wire Wire Line
+	8450 3050 8650 3050
 $EndSCHEMATC
